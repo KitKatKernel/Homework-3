@@ -1,0 +1,17 @@
+header h1 {
+    text-align: center;
+}
+
+section h2{
+    text-align: center;
+}
+
+.employee-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:800px) {
+
+    
+}
