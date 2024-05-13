@@ -11,6 +11,11 @@ section h2{
     justify-content: space-evenly;
 }
 
+.employee-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (max-width:800px) {
 
     
