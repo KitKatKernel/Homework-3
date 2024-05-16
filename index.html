@@ -2,23 +2,24 @@
 <html lang="en">
 
 <head>
-  <title>Employee Payroll</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/style.css" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Employee Payroll Tracker</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header>
-    <h1>Employee Payroll Tracker</h1>
-  </header>
-
-  <main>
-    <section>
-      <header>
-        <h2>Employee Roster</h2>
-      </header>
-      <table id="employeeTable">
+  <div class="wrapper">
+    <header>
+      <h1>Employee Payroll Tracker</h1>
+    </header>
+    <div class="card">
+      <div class="card-header">
+       <h2>Employee Roster</h2>
+      </div>
+      <div class="card-body">
+       <table>
         <thead>
           <tr>
             <th>First Name</th>
@@ -26,11 +27,16 @@
             <th>Salary</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="employee-table">
         </tbody>
-    </section>
-    <button>Add Employees</button>
-    <script src="script.js"></script>
-  </main>
+       </table>
+      </div>
+      <div class="card-footer">
+        <button id="add-employees-btn" class="btn">Add Employees</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
