@@ -21,7 +21,7 @@ Explore the contents of this guide:
 
 No installation is required:
 
-1. Open up the page on your favorite browser: [Employee Payroll Tracker]("Edit with URL after deploying")
+1. Open up the page on your favorite browser: [Employee Payroll Tracker](https://kitkatkernel.github.io/Homework-3/)
 
 ## Usage
 
@@ -32,7 +32,7 @@ No installation is required:
 
 ## Credits
 
-Thanks to my bootcamp instructors and peers for their continued guidance and support, and being a great bunch to learn with. Special thanks to W3schools' and MDN's online resources like that helped clarify JavaScript concepts, especially with and functionality.
+Thanks to my bootcamp instructors and peers for their continued guidance and support, and being a great bunch to learn with. Special thanks to W3schools' and MDN's online resources that helped clarify JavaScript concepts, especially the ones for working with tables, rows and cells and their functionality. Even though I didn't end up using any of the code for the table portion of my project when I migrated to the starter code, learning is always good and I'm sure it'll be useful to have a leg up on in it in the future.
 
 ## License
 
